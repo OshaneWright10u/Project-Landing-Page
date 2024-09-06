@@ -96,7 +96,7 @@ h2 {
 }
 
 .box {
-    width: 175px;
+    width: 170px;
     height: 175px;
 }
 
@@ -105,6 +105,90 @@ h2 {
     flex-direction: row;
     justify-content: center;
     margin-bottom: 50px;
+    gap: 10px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    font-size: 36px;
+    color: #1f2937;
+    height: 200px;
+    width: 725px;
+}
+
+.quoter {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+
+.signup-section {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
+.blue-box {
+    background-color: #3882f6;
+    height: 150px;
+    width: 1000px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.signup-section-main-text {
+    color: #f9faf8;
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: 170px;
+}
+
+.signup-section-sub-text {
+    color: #e5e7eb;
+    font-size: 18px
+}
+
+.signup-button2 {
+    background-color: #3882f6;
+    font-size: 18px;
+    border-radius: 12px;
+    padding: 4px 12px;
+    color: #e5e7eb;
+    border: 1px solid #f9faf8;
+    width: 100px;
+    margin-top: 20px;
+}
+
+.signup-section-main-text, 
+.signup-section-sub-text{
+    padding-left: 50px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 80px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
