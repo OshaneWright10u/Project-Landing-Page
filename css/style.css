@@ -192,3 +192,18 @@ h2 {
     justify-content: center;
     align-items: center;
 }
+
+.flag {
+    height: 200px;
+    width: 500px;
+    border-radius: 0;
+}
+
+img {
+    height: 142px;
+    width: 142px;
+    border-radius: 20px;
+}
+
+
+
